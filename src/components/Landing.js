@@ -6,7 +6,6 @@ import "./Landing.css";
 function Landing() {
   return (
     <div className="landing-container">
-      <vide src="./videos/video-2.mp4" autoPlay loop muted />
       <h1>GET IMMERSED</h1>
       <p>What are you waiting for?</p>
       <div className="landing-btns">
