@@ -6,7 +6,7 @@ import "./Landing.css";
 function Landing() {
   return (
     <div className="landing-container">
-      <h1>GET IMMERSED</h1>
+      <h1>IMMERSE YOURSELF</h1>
       <p>What are you waiting for?</p>
       <div className="landing-btns">
         <Button
