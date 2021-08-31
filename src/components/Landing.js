@@ -6,7 +6,7 @@ import "./Landing.css";
 function Landing() {
   return (
     <div className="landing-container">
-      <h1>IMMERSE YOURSELF</h1>
+      <h1>START LIVING HEALTHY</h1>
       <p>What are you waiting for?</p>
       <div className="landing-btns">
         <Button
@@ -16,13 +16,6 @@ function Landing() {
         >
           GET STARTED
         </Button>
-        {/* <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          LIBRARY
-        </Button> */}
       </div>
     </div>
   );

@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home.js";
 import Library from "./components/pages/Library";
-import SignUp from "./components/pages/SignUp";
 import Contact from "./components/pages/Contact";
+import FormOne from "./components/FormOne";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/library" component={Library} />
-          <Route path="/sign-up" component={SignUp} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/" component={Home} /> */}
+          <Route path="/tdee" component={FormOne} />
         </Switch>
       </Router>
     </>
