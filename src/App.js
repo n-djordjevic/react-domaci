@@ -14,7 +14,6 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/library" component={Library} />
-          {/* <Route path="/" component={Home} /> */}
           <Route path="/tdee" component={FormOne} />
         </Switch>
       </Router>
